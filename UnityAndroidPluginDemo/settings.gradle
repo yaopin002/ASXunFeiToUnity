@@ -1,0 +1,1 @@
+include ':unitymscdemo', ':myapplication', ':speechrecognizer2', ':iflyjar'

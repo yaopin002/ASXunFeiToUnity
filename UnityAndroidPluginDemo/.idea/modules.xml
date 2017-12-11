@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/UnityAndroidPluginDemo.iml" filepath="$PROJECT_DIR$/UnityAndroidPluginDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iflyjar/iflyjar.iml" filepath="$PROJECT_DIR$/iflyjar/iflyjar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myapplication/myapplication.iml" filepath="$PROJECT_DIR$/myapplication/myapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/speechrecognizer2/speechrecognizer2.iml" filepath="$PROJECT_DIR$/speechrecognizer2/speechrecognizer2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unitymscdemo/unitymscdemo.iml" filepath="$PROJECT_DIR$/unitymscdemo/unitymscdemo.iml" />
+    </modules>
+  </component>
+</project>
