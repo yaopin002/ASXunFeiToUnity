@@ -1,0 +1,116 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 160088 bytes for AllocateHeap
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   In 32 bit mode, the process size limit was hit
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Use 64 bit Java on a 64 bit OS
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (memory/allocation.inline.hpp:61), pid=8648, tid=0x0000000000003c30
+#
+# JRE version:  (8.0_131-b11) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.131-b11 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000000000240e000):  JavaThread "Unknown thread" [_thread_in_vm, id=15408, stack(0x0000000002580000,0x0000000002680000)]
+
+Stack: [0x0000000002580000,0x0000000002680000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x000000000240e000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=15408, stack(0x0000000002580000,0x0000000002680000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (0 events):
+No events
+
+
+Dynamic libraries:
+0x000000013fa00000 - 0x000000013fa37000 	C:\Program Files\Java\jdk1.8.0_131\bin\java.exe
+0x0000000077330000 - 0x00000000774da000 	C:\Windows\SYSTEM32\ntdll.dll
+0x0000000077210000 - 0x000000007732f000 	C:\Windows\system32\kernel32.dll
+0x000007fefd280000 - 0x000007fefd2ea000 	C:\Windows\system32\KERNELBASE.dll
+0x000007feff220000 - 0x000007feff2fb000 	C:\Windows\system32\ADVAPI32.dll
+0x000007fefe7d0000 - 0x000007fefe86f000 	C:\Windows\system32\msvcrt.dll
+0x000007fefe710000 - 0x000007fefe72f000 	C:\Windows\SYSTEM32\sechost.dll
+0x000007fefeba0000 - 0x000007fefeccd000 	C:\Windows\system32\RPCRT4.dll
+0x0000000077110000 - 0x000000007720a000 	C:\Windows\system32\USER32.dll
+0x000007fefd830000 - 0x000007fefd897000 	C:\Windows\system32\GDI32.dll
+0x000007fefef60000 - 0x000007fefef6e000 	C:\Windows\system32\LPK.dll
+0x000007feff380000 - 0x000007feff44b000 	C:\Windows\system32\USP10.dll
+0x000007fefb710000 - 0x000007fefb904000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.18837_none_fa3b1e3d17594757\COMCTL32.dll
+0x000007feff300000 - 0x000007feff371000 	C:\Windows\system32\SHLWAPI.dll
+0x000007fefd6d0000 - 0x000007fefd6fe000 	C:\Windows\system32\IMM32.DLL
+0x000007fefd720000 - 0x000007fefd829000 	C:\Windows\system32\MSCTF.dll
+0x0000000071460000 - 0x0000000071532000 	C:\Program Files\Java\jdk1.8.0_131\jre\bin\msvcr100.dll
+0x000000006fb60000 - 0x00000000703fc000 	C:\Program Files\Java\jdk1.8.0_131\jre\bin\server\jvm.dll
+0x000007fef9f90000 - 0x000007fef9f99000 	C:\Windows\system32\WSOCK32.dll
+0x000007feff450000 - 0x000007feff49d000 	C:\Windows\system32\WS2_32.dll
+0x000007feff4a0000 - 0x000007feff4a8000 	C:\Windows\system32\NSI.dll
+0x000007fefb2c0000 - 0x000007fefb2fb000 	C:\Windows\system32\WINMM.dll
+0x000007fefc100000 - 0x000007fefc10c000 	C:\Windows\system32\VERSION.dll
+0x0000000077500000 - 0x0000000077507000 	C:\Windows\system32\PSAPI.DLL
+0x0000000071610000 - 0x000000007161f000 	C:\Program Files\Java\jdk1.8.0_131\jre\bin\verify.dll
+0x00000000715e0000 - 0x0000000071609000 	C:\Program Files\Java\jdk1.8.0_131\jre\bin\java.dll
+0x00000000715c0000 - 0x00000000715d6000 	C:\Program Files\Java\jdk1.8.0_131\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Xmx2048M -Dfile.encoding=UTF8 
+java_command: C:\Program Files\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Tools\sdktools.jar -
+java_class_path (initial): C:\Program Files\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Tools\sdktools.jar
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk1.8.0_131
+PATH=C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\Users\Administrator\AppData\Local\Android\Sdk\ndk-bundle;C:\Users\Administrator\AppData\Local\Android\sdk\platform-tools;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\opencv\build\x64\vc12\bin;C:\Program Files (x86)\opencv\build\include;C:\Program Files\Git\cmd;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\Android\Android Studio\gradle\gradle-3.2\bin;
+USERNAME=Administrator
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 , 64 bit Build 7601 (6.1.7601.23807)
+
+CPU:total 4 (initial active 4) (4 cores per cpu, 1 threads per core) family 6 model 158 stepping 9, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, clmul, erms, rtm, 3dnowpref, lzcnt, tsc, tscinvbit, bmi1, bmi2, adx
+
+Memory: 4k page, physical 8352972k(896416k free), swap 9399688k(5116k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (25.131-b11) for windows-amd64 JRE (1.8.0_131-b11), built on Mar 15 2017 01:23:53 by "java_re" with MS VC++ 10.0 (VS2010)
+
+time: Fri Dec 01 18:51:19 2017
+elapsed time: 0 seconds (0d 0h 0m 0s)
+
